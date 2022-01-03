@@ -77,7 +77,7 @@ export function Dashboard() {
 
                 <TransactionList
                     data={data}
-                    keyExtractor={ item => item.id }
+                    keyExtractor={ (item : DataListTransactionsProps) => item.id }
                 renderItem={({ item }) => <TransactionCard data={item} />}
                 >
             </TransactionList>

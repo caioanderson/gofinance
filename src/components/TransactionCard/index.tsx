@@ -14,7 +14,7 @@ export interface TransactionCardProps {
     title: string;
     amount: string;
     category: Category;
-    date: string;
+    date: string; 
 }
 
 interface Props {
