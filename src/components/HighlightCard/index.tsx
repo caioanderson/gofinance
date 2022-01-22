@@ -23,7 +23,7 @@ export function HighlightCard({ title, amount, lastTransaction, type }: Highligh
             </Header>
 
             <Footer>
-                <Amount type={type}>R${amount}</Amount>
+                <Amount type={type}>{amount}</Amount>
                 <LastTransaction type={type}>{lastTransaction}</LastTransaction>
             </Footer>
 
